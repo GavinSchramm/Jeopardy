@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+    <script src="Jeopardy.js"></script>
+    <link rel="stylesheet" href="Jeopardy.css">
+    <title>Jeopardy!</title>
+    <head>
+        <h1 id="title">JEOPARDY!</h1>
+    </head>
+    <body>
+    
+        <!-- Topic Row -->
+        <!-- To change Topics, you have to hard code it in the paragraph tags right below this line -->
+        <div class="myflexboxRow" title="test" id="column1">
+            <div class="myflexboxColumn" id="b11">
+                <p>Topic 1</p>
+            </div>
+            <div class="myflexboxColumn" id="b21">
+                <p>Topic 2</p>
+            </div>
+            <div class="myflexboxColumn" id="b31">
+                <p>Topic 3</p>
+            </div>
+            <div class="myflexboxColumn" id="b41">
+                <p>Topic 4</p>
+            </div>
+            <div class="myflexboxColumn" id="b51">
+                <p>Topic 5</p>
+            </div>
+            <div class="myflexboxColumn" id="b61">
+                <p>Topic 6</p>
+            </div>
+        </div>
+
+        <!-- 200 Row -->
+        <div class="myflexboxRow" title="test" id="column2">
+            <div class="myflexboxColumn" id="b12">
+                <button class="button" onclick="button11()" id="button11" >200 11</button>
+            </div>
+            <div class="myflexboxColumn" id="b22">
+                <button class="button" onclick="button12()" id="button12">200 12</button>
+            </div>
+            <div class="myflexboxColumn" id="b32">
+                <button class="button" onclick="button13()" id="button13">200 13</button>
+            </div>
+            <div class="myflexboxColumn" id="b42">
+                <button class="button" onclick="button14()" id="button14">200 14</button>
+            </div>
+            <div class="myflexboxColumn" id="b52">
+                <button class="button" onclick="button15()" id="button15">200 15</button>
+            </div>
+            <div class="myflexboxColumn" id="b62">
+                <button class="button" onclick="button16()" id="button16">200 16</button>
+            </div>
+        </div>
+
+        <!-- 400 Row -->
+        <div class="myflexboxRow" title="test" id="column3">
+            <div class="myflexboxColumn" id="b13">
+                <button class="button" onclick="button21()" id="button21">400 21</button>
+            </div>
+            <div class="myflexboxColumn" id="b23">
+                <button class="button" onclick="button22()" id="button22">400 22</button>
+            </div>
+            <div class="myflexboxColumn" id="b33">
+                <button class="button" onclick="button23()" id="button23">400 23</button>
+            </div>
+            <div class="myflexboxColumn" id="b43">
+                <button class="button" onclick="button24()" id="button24">400 24</button>
+            </div>
+            <div class="myflexboxColumn" id="b53">
+                <button class="button" onclick="button25()" id="button25">400 25</button>
+            </div>
+            <div class="myflexboxColumn" id="b63">
+                <button class="button" onclick="button26()" id="button26">400 26</button>
+            </div>
+        </div>
+
+        <!-- 600 Row -->
+        <div class="myflexboxRow" title="test" id="column4">
+            <div class="myflexboxColumn" id="b14">
+                <button class="button" onclick="button31()" id="button31">600 31</button>
+            </div>
+            <div class="myflexboxColumn" id="b24">
+                <button class="button" onclick="button32()" id="button32">600 32</button>
+            </div>
+            <div class="myflexboxColumn" id="b34">
+                <button class="button" onclick="button33()" id="button33">600 33</button>
+            </div>
+            <div class="myflexboxColumn" id="b44">
+                <button class="button" onclick="button34()" id="button34">600 34</button>
+            </div>
+            <div class="myflexboxColumn" id="b54">
+                <button class="button" onclick="button35()" id="button35">600 35</button>
+            </div>
+            <div class="myflexboxColumn" id="b64">
+                <button class="button" onclick="button36()" id="button36">600 36</button>
+            </div>
+        </div>
+
+        <!-- 800 Row -->
+        <div class="myflexboxRow" title="test" id="column5">
+            <div class="myflexboxColumn" id="b15">
+                <button class="button" onclick="button41()" id="button41">800 41</button>
+            </div>
+            <div class="myflexboxColumn" id="b25">
+                <button class="button" onclick="button42()" id="button42">800 42</button>
+            </div>
+            <div class="myflexboxColumn" id="b35">
+                <button class="button" onclick="button43()" id="button43">800 43</button>
+            </div>
+            <div class="myflexboxColumn" id="b45">
+                <button class="button" onclick="button44()" id="button44">800 44</button>
+            </div>
+            <div class="myflexboxColumn" id="b55">
+                <button class="button" onclick="button45()" id="button45">800 45</button>
+            </div>
+            <div class="myflexboxColumn" id="b65">
+                <button class="button" onclick="button46()" id="button46">800 46</button>
+            </div>
+        </div>
+
+        <!-- 1000 Row -->
+        <div class="myflexboxRow" title="test" id="column6">
+            <div class="myflexboxColumn" id="b16">
+                <button class="button" onclick="button51()" id="button51">1000 51</button>
+            </div>
+            <div class="myflexboxColumn" id="b26">
+                <button class="button" onclick="button52()" id="button52">1000 52</button>
+            </div>
+            <div class="myflexboxColumn" id="b36">
+                <button class="button" onclick="button53()" id="button53">1000 53</button>
+            </div>
+            <div class="myflexboxColumn" id="b46">
+                <button class="button" onclick="button54()" id="button54">1000 54</button>
+            </div>
+            <div class="myflexboxColumn" id="b56">
+                <button class="button" onclick="button55()" id="button55">1000 55</button>
+            </div>
+            <div class="myflexboxColumn" id="b66">
+                <button class="button" onclick="button56()" id="button56">1000 56</button>
+            </div>
+        </div>
+
+        <!-- Question  -->
+        <div class="question" id="questionDiv">
+            <p style="display: none;" id="questionNum">Points</p>
+            <p style="display: none;" id="question">How many ice cream sandwiches can you eat in one minute?</p>
+        </div>
+        <div class="myflexboxRowTeam" id="teamName">
+            <div class="myflexboxColumnTeam" id="pointButton">
+                <button class="button" onclick="showPoints()" id="team1Button" style="display: none;">Team 1</button>
+            </div>
+            <div class="myflexboxColumnTeam" id="pointButton">
+                <button class="button" onclick="showPoints()" id="team2Button" style="display: none;">Team 2</button>
+            </div>
+            <div class="myflexboxColumnTeam" id="pointButton">
+                <button class="button" onclick="showPoints()" id="team3Button" style="display: none;">Team 3</button>
+            </div>
+            <div class="myflexboxColumnTeam" id="pointButton">
+                <button class="button" onclick="showPoints()" id="nooneButton" style="display: none;">No One</button>
+            </div>
+        </div>
+
+        <!-- Team Row -->
+        <div class="myflexboxRowTeam" id="teamName">
+            <div class="myflexboxColumnTeam" id="teamPoints">
+                <h1 id="team">Team 1</h1>
+                <p>Points: 1</p>
+            </div>
+            <div class="myflexboxColumnTeam" id="teamPoints">
+                <h1 id="team">Team 2</h1>
+                <p>Points: 2</p>
+            </div>
+            <div class="myflexboxColumnTeam" id="teamPoints">
+                <h1 id="team">Team 3</h1>
+                <p>Points: 3</p>
+            </div>
+        </div>
+
+        <button class="button" onclick="home()" id="home">Home</button>
+    </body>
+</html>
