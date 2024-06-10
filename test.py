@@ -1,3 +1,3 @@
-for i in range(1,6):
+for i in range(1,7):
     for j in range(1,7):
-        print('function button' + str(i) + str(j) +'(){\n\tdocument.getElementById("column1").style.display="none";\n\tdocument.getElementById("column2").style.display="none";\n\tdocument.getElementById("column3").style.display="none";\n\tdocument.getElementById("column4").style.display="none";\n\tdocument.getElementById("column5").style.display="none";\n\tdocument.getElementById("column6").style.display="none";\n\tdocument.getElementById("button' + str(i) + str(j) + '").style.color="purple";\n\tdocument.getElementById("home").style.display="none";\n\tdocument.getElementById("questionNum").style.display="block"\n\tdocument.getElementById("question").style.display="block"\n}\n')
+        print('#button' + str(i) + str(j) + ' ,')

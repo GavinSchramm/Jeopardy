@@ -5,7 +5,7 @@
 }
 
 html{
-    background-color: rgb(0, 3, 207);
+    background-color: rgb(0, 89, 255);
 }
 
 p {
@@ -17,7 +17,7 @@ p {
 }
 
 .button {
-    background-color:blueviolet;
+    background-color:rgb(0, 3, 207);
     width: 100%;
     font-size: 50px;
 }
@@ -35,7 +35,7 @@ p {
 .myflexboxRow {
     display: flex;
     flex-wrap:nowrap;
-    background-color:rgb(255, 145, 207);
+    background-color:green;
     width: 90%;
     margin: auto;
 }
@@ -48,7 +48,7 @@ p {
 }
 
 #column1 {
-    background: rgb(0, 145, 207);
+    background: rgb(0, 3, 207);
 }
 
 #teamName {
@@ -68,7 +68,7 @@ p {
     text-align: center;
     border-style: solid;
     border-color:black;
-    background-color: rgb(255, 255, 173);
+    background-color:deepskyblue;
 }
 
 #teamPoints {
@@ -79,11 +79,16 @@ p {
 #b11, #b21, #b31, #b41, #b51, #b61 {
     text-wrap:pretty;
     width:16%;
+    color: white;
+    font-weight: bold;
 }
 
 #home {
     display: none;
     text-align: center;
+    color:white;
+    margin:auto;
+    width:90%;
 }
 
 #questionNum {
@@ -102,5 +107,16 @@ p {
 }
 
 #team1Button, #team2Button, #team3Button, #nooneButton {
-    background-color: rgb(255, 255, 173);
+    background-color: deepskyblue;
+}
+
+#button11 ,#button12 ,#button13 ,#button14 ,#button15 ,#button16 ,#button21 ,#button22 ,#button23 ,#button24 ,#button25 ,#button26 ,#button31 ,#button32 ,#button33 ,#button34 ,#button35 ,#button36 ,#button41 ,#button42 ,#button43 ,#button44 ,#button45 ,#button46 ,#button51 ,#button52 ,#button53 ,#button54 ,#button55 ,#button56 ,#button61 ,#button62 ,#button63 ,#button64 ,#button65 ,#button66 {
+    color: rgb(172, 117, 0);
+    font-weight:bold;
+}
+
+#answer {
+    color: white;
+    width: 90%;
+    margin: auto;
 }
